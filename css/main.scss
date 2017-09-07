@@ -1,0 +1,31 @@
+---
+---
+@import 'variables';
+@import 'normalize';
+@import 'blocks';
+@import 'typography';
+
+
+body {
+  font-smooth:always;
+-webkit-font-smoothing: antialiased;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (min-width: 1200px) {
+  html {
+    overflow: hidden;
+    height: 100%;
+  }
+  body {
+    height: 100%;
+    overflow: auto;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  width: 85%;
+  max-width: 1200px;
+}
